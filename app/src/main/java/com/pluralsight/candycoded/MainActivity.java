@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main, menu);
         return true;
@@ -83,8 +83,7 @@ public class MainActivity extends AppCompatActivity {
     // ***
     // TODO - Task 1 - Show Store Information Activity
     // ***  
-@Override 
-public boolean onOptionsItemSelected(MenuItem){
+@Override public boolean onOptionsItemSelected(MenuItem){
 
     Intent infoIntent = new intent (this,InfoActivity.class );
     startActivity(infoIntent);
